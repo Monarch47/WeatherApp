@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container-1{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(153, 153, 153); */
+    background-color: #eeedec;
+    position: relative;
+    min-width: 100vw;
+}
+
+.form-contianer-1{
+    height: 10vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 30vw;
+    min-width: 30vw;
+}
+
+.my-form-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 2vw;
+    font-family: 'Nunito', sans-serif;
+}
+
+.label-text{
+    font-weight:100;
+}
+
+#area-name-input{
+    width:100%;
+    height: 6vh;
+    border-radius: 1.5vh;
+    border: none;
+    margin: 1vh 0 0 0;
+    font-size: 4vh;
+    padding: 1vh 1vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    color: rgb(58, 58, 58)
+}
+
+.weather-card-container{
+    height: 75vh;
+    max-width: 25vw;
+    min-width: 25vw;
+    background-color: white;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    font-size: 2em;
+    box-shadow: 1vh 1vh 3vh rgb(110, 110, 110);
+    border-radius: 3vh;
+}
+
+.display-none-class{
+    display: none;
+}
+
+.weather-card{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.weather-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.weather-icon{
+    position: relative;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    background-color: rgb(238, 245, 245);
+    margin: 0 auto;
+    top: -15%;
+    /* background-image: url; */
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-details-container{
+    margin: 5vh auto;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    top: 2%;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Nunito', sans-serif;
+    max-width: 30vw;
+    min-width: 30vw;
+    left: -10%;
+}
+
+.area-name{
+    font-size: 3vh;
+    margin: 2vh auto;
+}
+
+.weather-condition{
+    font-size: 3vh;
+    margin: 2vh auto;
+}
+
+.area-temperature{
+    font-size: 3vh;
+    margin: 2vh auto;
+}
+
